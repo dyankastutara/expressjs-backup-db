@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"075b3ada2e114ceb89d7da38cd9164b0","collectionName":"otpconfirmlastphonenumbers","type":"collection"}
