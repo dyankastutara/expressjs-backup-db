@@ -72,7 +72,7 @@ module.exports = {
     const backupPath = `${BACKUP_DIR}/backup_${date}`;
 
     // Export password ke env agar pg_dump bisa akses tanpa prompt
-    const cmd = `mongodump --uri="${process.env.MONGO_LP_URI}" --out="${backupPath}"`;
+    const cmd = `mongodump --uri="${process.env.MONGO_CRM_URI}" --out="${backupPath}"`;
     exec(cmd, (error, stdout, stderr) => {
       if (error) {
         console.error(`Backup error: ${error.message}`);
